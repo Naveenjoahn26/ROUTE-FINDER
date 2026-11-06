@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# Large cached/generated files
+trichy_graph.graphml
+cache/
+*.graphml
+
+# ML model (regenerate with ML-file.py)
+risk_model.pkl
+scaler.pkl
+
+# Data files
+safe_route_data.csv
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+*.env
+
+# Logs
+*.log
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/

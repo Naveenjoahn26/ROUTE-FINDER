@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "buildCommand": "",
+  "outputDirectory": "frontend",
+  "rewrites": [
+    {
+      "source": "/predict",
+      "destination": "https://saferoutefinder.onrender.com/predict"
+    },
+    {
+      "source": "/health",
+      "destination": "https://saferoutefinder.onrender.com/health"
+    }
+  ]
+}
